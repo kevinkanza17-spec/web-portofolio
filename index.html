@@ -3,40 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Kavin | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+    <!-- Navbar -->
     <header>
         <nav class="navbar">
-            <a href="#" class="logo">kavin</a>
-            <div class="menu">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Skill</a>
-                <a href="#">Project</a>
-                <a href="#">Contact</a>
+
+            <a href="#" class="logo">Kavin</a>
+
+            <div class="nav-menu" id="navMenu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
             </div>
-            <a href="#contact" class="cta-button"> tombol</a>
+
+            <a href="#contact" class="hire-button">
+                Hire Me
+            </a>
+            <button class="menu-button" id="menuButton">☰</button>
+
         </nav>
     </header>
-    <section class="hero">
+
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+
         <div class="hero-image">
-            <img src="image/hero.jpg" alt="Hero Image">
-            <div class="hero-content">
-                <p class="tekskecil">Hi, I'm</p>
-
-                <h1>Kavin <span>Rabbani</span></h1>
-
-                <h2>I'm <span>Junior</span></h2>
-                <p class="deskripsi"> I am an Informatics student interested in
-                programming, web development, and design.</p>
-            </div class="hero-tombol">
-                <a href="#contact" class="cta-button">lihat</a>
-                <a href="#contact" class="cta-button">lihat</a>
-            </div>
+            <img src="image/hero.jpg" alt="Profile Kavin">
         </div>
+
+        <div class="hero-content">
+
+            <p class="small-text">
+                HELLO, I'M
+            </p>
+
+            <h1>
+                Kavin <span>Rabbani</span>
+            </h1>
+
+            <h2>
+                I'm an <span>Informatics Student</span>
+            </h2>
+
+            <p class="description">
+                I am an Informatics student interested in
+                programming, web development, and design.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">
+                    View My Work
+                </a>
+
+                <a href="#contact" class="btn">
+                    Contact Me
+                </a>
+            </div>
+
+        </div>
+
     </section>
+
+
     <script src="script.js"></script>
+
 </body>
 </html>
