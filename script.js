@@ -15,6 +15,7 @@ navLinks.forEach(function(link) {
         this.classList.add("active");
 
     });
+});
 
 // Hamburger Menu
 
